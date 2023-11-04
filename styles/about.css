@@ -1,0 +1,32 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    color: rgb(30, 48, 80);
+}
+
+.about-picture-column{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.about-picture-column img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about-picture-column p{
+    font-style: italic;
+    font-size: 80%;
+    font-weight: 700;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.about-content{
+    width: 60%;
+    font-size: 20px;
+}

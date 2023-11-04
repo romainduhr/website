@@ -1,0 +1,35 @@
+#home{
+    height: 100vh;
+    background-image: url("../img/pictures/banner.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.home-text-content{
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    max-width: 1200px;
+}
+
+.home-name{
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 1vh;
+}
+
+.home-studies{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 3vh;
+    font-weight: 500;
+}
+
+.home-looking-for{
+    color: rgb(30, 48, 80);
+    font-size: 30px;
+    margin-bottom: 15vh;
+}
