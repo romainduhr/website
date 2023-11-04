@@ -15,13 +15,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(189, 209, 222);
     overflow: hidden;
     border: solid;
     border-radius: 30px;
     border-width: 2px;
-    border-color: rgb(230, 230, 230);
-    box-shadow: 0 1px 5px 2px rgb(200, 200, 200);
+    border-color: rgb(179, 199, 212);
+    box-shadow: 0 1px 5px 2px rgb(189, 209, 222);
 }
 
 .thumbnail-container{
