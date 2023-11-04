@@ -55,3 +55,10 @@
 .contact-container a:hover p{
     font-size: 15px;
 }
+
+@media screen and (max-width: 690px) {
+    .contact-container div:hover p,
+    .contact-container a:hover p{
+        font-size: 10px;
+    }
+}
