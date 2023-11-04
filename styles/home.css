@@ -34,6 +34,10 @@
     margin-bottom: 15vh;
 }
 
+.home-bold{
+    font-weight: 500;
+}
+
 @media screen and (max-width: 690px) {
     .home-name{
         font-size: 17px;
