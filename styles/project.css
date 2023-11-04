@@ -82,7 +82,7 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(189, 209, 222);
-    width: 10%;
+    width: 13%;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 5px;
@@ -121,15 +121,7 @@
 }
 
 .project-description-body p{
-    display: flex;
-    align-items: center;
     margin-top: 10px;
-    height: 1em;
-}
-
-.middle-dot{
-    font-size: 50px;
-    margin-right: 5px;
 }
 
 .example{
