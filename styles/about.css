@@ -30,3 +30,19 @@
     width: 60%;
     font-size: 20px;
 }
+
+@media screen and (max-width: 690px) {
+    .about-container{
+        flex-direction: column;
+    }
+    .about-picture-column{
+        margin-right: 0;
+        width: 50%;
+    }
+    .about-content{
+        width: 95%;
+    }
+    .about-picture-column p{
+        font-size: 120%;
+    }
+}
