@@ -21,7 +21,6 @@
 .year-box{
     display: flex;
     flex-direction: column;
-    width: 80%;
     background-color: white;
     border-radius: 20px;
     box-shadow: 3px 3px 5px 1px grey;
