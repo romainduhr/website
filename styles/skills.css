@@ -91,6 +91,8 @@
 }
 
 .environment-content p{
+    display: inline-block;
+    width: 100%;
     color: grey;
     height: 20px;
     margin-top: 10px;
