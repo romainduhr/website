@@ -78,5 +78,25 @@
 @media screen and (max-width: 960px) {
     .year-tech-header{
         font-size: 1em;
+        justify-content: space-between;
     }
+}
+
+.environment-content{
+    padding-left: 3%;
+}
+
+.environment-content img{
+    width: 20px;
+}
+
+.environment-content p{
+    color: grey;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.environment-div-title{
+    color: black;
+    font-weight: 500;
 }
