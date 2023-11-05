@@ -33,17 +33,12 @@
 
 .year-title{
     width: 3em;
+    font-size: 1.2em;
     text-align: center;
     color: white;
     padding-top: 2px;
     padding-bottom: 1px;
     border-radius: 5px;
     font-weight: bold;
-}
-
-.year-box:nth-child(odd) .year-title{
-    background-color: rgb(0, 174, 255);
-}
-.year-box:nth-child(even) .year-title{
-    background-color: rgb(3, 0, 202);
+    background-color: rgb(59, 93, 156);
 }
