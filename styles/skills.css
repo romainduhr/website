@@ -1,4 +1,4 @@
-#journey{
+#skills{
     background-color: rgb(213, 233, 247);
 }
 
@@ -42,4 +42,41 @@
     border-radius: 5px;
     font-weight: bold;
     background-color: rgb(59, 93, 156);
+}
+
+.year-content{
+    display: flex;
+}
+
+@media screen and (max-width: 960px) {
+    .year-content {
+        flex-direction: column;
+    }
+}
+
+.year-tech{
+    flex: 1;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.year-tech-header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.language{
+    padding-top: 3px;
+}
+
+.scoring{
+    color: rgb(59, 93, 156);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+    .year-tech-header{
+        font-size: 1em;
+    }
 }
