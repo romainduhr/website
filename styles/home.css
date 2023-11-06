@@ -1,6 +1,6 @@
 #home{
     scroll-margin-top: 128px;
-    margin-top: 64px;
+    margin-top: 63px;
     height: calc(100vh - 64px);
     background-image: url("../img/pictures/banner.jpg");
     background-size: cover;
