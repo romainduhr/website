@@ -1,7 +1,7 @@
 #home{
     scroll-margin-top: 128px;
     margin-top: 63px;
-    height: calc(100vh - 64px);
+    height: calc(100vh - 63px);
     background-image: url("../img/pictures/banner.jpeg");
     background-size: cover;
     background-position-x: center;
@@ -29,8 +29,9 @@
     border-radius: 10px;
     width: 70%;
     max-width: 1200px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .home-name{
