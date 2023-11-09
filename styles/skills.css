@@ -48,11 +48,13 @@
     display: flex;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1250px) {
     .year-content {
         flex-direction: column;
     }
 }
+
+
 
 .year-tech{
     flex: 1;
@@ -61,12 +63,14 @@
 }
 
 .year-tech-header{
+    font-weight: bold;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 1.2em;
 }
 
 .language{
+    color: rgb(30, 48, 80);
     padding-top: 3px;
 }
 
@@ -78,8 +82,22 @@
 @media screen and (max-width: 960px) {
     .year-tech-header{
         font-size: 1em;
-        justify-content: space-between;
     }
+}
+
+.skills-list{
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills-list p{
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.skills-list p{
+    margin-left: 0.8em;
 }
 
 .environment-content{
