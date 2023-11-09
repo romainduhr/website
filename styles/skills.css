@@ -48,7 +48,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
     .year-content {
         flex-direction: column;
     }
@@ -93,8 +93,8 @@
 
 .skills-list p{
     font-size: 0.8em;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .skills-list p{
     margin-left: 0.8em;
