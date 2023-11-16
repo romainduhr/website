@@ -4,12 +4,6 @@
     gap: 20px;
 }
 
-@media screen and (max-width: 960px) {
-    .project-grid {
-      grid-template-columns: 1fr;
-    }
-}
-
 .project-preview{
     height: 400px;
     position: relative;
@@ -22,6 +16,12 @@
     border-width: 2px;
     border-color: #e4e4e4;
     box-shadow: 0 1px 5px 2px #F1F1F1;;
+}
+
+@media screen and (max-width: 960px) {
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
 }
 
 .thumbnail-container{
