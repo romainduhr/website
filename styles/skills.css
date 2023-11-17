@@ -48,12 +48,6 @@
     display: flex;
 }
 
-@media screen and (max-width: 1300px) {
-    .skill-content {
-        flex-direction: column;
-    }
-}
-
 .skill-tech{
     flex: 1;
     padding-right: 3%;
@@ -62,20 +56,38 @@
 }
 
 .skill-tech-header{
+    display: inline-block;
     font-weight: bold;
-    display: flex;
-    justify-content: space-between;
     font-size: 1.2em;
 }
 
 .language{
+    float: left;
+    margin-left: 10px;
     color: rgb(30, 48, 80);
     padding-top: 3px;
 }
 
 .scoring{
+    float: left;
+    margin-left: 40px;
     color: rgb(59, 93, 156);
     font-weight: bold;
+}
+
+@media screen and (max-width: 1300px) {
+    .skill-content {
+        flex-direction: column;
+    }
+
+    .skill-tech-header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .scoring{
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 960px) {
