@@ -1,56 +1,56 @@
-#home{
-    scroll-margin-top: 128px;
-    margin-top: 63px;
-    height: calc(100vh - 63px);
-    background-image: url("../img/pictures/banner.jpeg");
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
-    position: relative;
-    display: flex;
-    justify-content: center;
+#home {
+  scroll-margin-top: 128px;
+  margin-top: 63px;
+  height: calc(100vh - 63px);
+  background-image: url("../img/pictures/banner.jpeg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 960px) {
-    #home{
-        margin-top: 84px;
-        scroll-margin-top: 168px;
-        height: calc(100vh - 84px);
-    }
+  #home {
+    margin-top: 84px;
+    scroll-margin-top: 168px;
+    height: calc(100vh - 84px);
+  }
 
-    .home-text-content{
-        background-color: rgba(255, 255, 255, 0.2);
-    }
+  .home-text-content {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
 }
 
-.home-text-content{
-    position: absolute;
-    bottom: 7vh;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-    width: 70%;
-    max-width: 1200px;
-    background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 0 100px 1px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+.home-text-content {
+  position: absolute;
+  bottom: 7vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 100px 1px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
-.home-name{
-    color: white;
-    font-size: 40px;
-    font-style: italic;
-    margin-bottom: 1vh;
+.home-name {
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 1vh;
 }
 
-.home-studies{
-    color: white;
-    font-size: 50px;
-    margin-bottom: 3vh;
-    font-weight: 500;
+.home-studies {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 3vh;
+  font-weight: 500;
 }
 
 .home-looking-for{
@@ -59,24 +59,24 @@
     font-weight: 500;
 }
 
-.home-bold{
-    font-weight: 700;
+.home-bold {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 960px) {
-    .home-name{
-        font-size: 2vh;
-    }
+  .home-name {
+    font-size: 2vh;
+  }
 
-    .home-studies{
-        font-size: 3vh;
-    }
+  .home-studies {
+    font-size: 3vh;
+  }
 
-    .home-looking-for{
-        font-size: 2.5vh;
-    }
+  .home-looking-for {
+    font-size: 2.5vh;
+  }
 
-    .home-text-content{
-        margin-bottom: 8.5vh;
-    }
+  .home-text-content {
+    margin-bottom: 8.5vh;
+  }
 }
